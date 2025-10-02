@@ -9,7 +9,8 @@ void main(int argc, char *argv[])
   cout << "\nSum of 2 numbers\n\n";
   cout << "Insert 2 numbers" << endl << endl;
   cout << "First number: ";
-  cin << num1;
+  //!TODO: cin<< deve diventare cin>>
+  cin >> num1;
   cout << "\nSecond number: ";
   cin >> num2;
   sum = num1 + num2;
@@ -22,4 +23,7 @@ void main(int argc, char *argv[])
    // for Windows Users use
    //
    // system("pause");
+
+   //!TODO: RETURN
+   return 0;
 }
