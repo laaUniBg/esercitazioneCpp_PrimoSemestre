@@ -1,4 +1,7 @@
-
+// !TODO: INLCUDE
+#include <iostream>
+// !TODO: USING NAMESPACE STD
+using namespace std;
 
 int main(int argc, char *argv[])
 {  
@@ -6,7 +9,7 @@ int main(int argc, char *argv[])
 
   sum = 0;
   num = 1;
-  while (num != 0) 
+  while (num != 0)
   {
       cout << "\n Digit a number (digit 0 to exit): ";
       cin >> num;
