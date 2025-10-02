@@ -1,7 +1,8 @@
 #include <iostream> // include standard libraries
 using namespace std;
 
-void main(int argc, char *argv[])
+//!TODO: il void deve diventare int
+int main(int argc, char *argv[])
 {  
   int num1, num2, sum;
   sum = 0;
@@ -24,6 +25,6 @@ void main(int argc, char *argv[])
    //
    // system("pause");
 
-   //!TODO: RETURN
+   //!TODO: RETURN 0 mancante
    return 0;
 }
