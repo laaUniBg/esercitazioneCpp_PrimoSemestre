@@ -15,6 +15,10 @@ r / run - fai partire il debugger (ricordati prima i breakpoint)
 
 b / break <rigaCodiceC++> - aggiungere un breakpoint (poi aggiungere anche dopo durante l'esecuzione, l'importante che crei almeno uno b main)
 
+b / break <functionName>
+
+b / break <nomeFile:functionName> <nomeFile:numeroRiga>
+
 continue - continua avanti
 
 n / ext - next NO DIVING INTO FUNCTION 
@@ -23,4 +27,9 @@ step - next ma con diving into function
 l / list - una sorta di 'cat' per vedere il codice del programma da debuggare, utile per controllare se abbiamo preso il codice aggiornato oppure non aggiornato
 
 p / print <nomeVariabile> scrivi valore variabile
+
+delete - cancella tutti i breakpoint
+delete <numeroRiga> - cancella il breakpoint
+
+help
 
